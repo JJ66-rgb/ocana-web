@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.main {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 14px;
+}
+body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/RUH2AAC3OFBEDGQNK2FLGZBRWI.jpeg);
+    background-size: cover;
+}
+.barra {
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.uno{
+    transition: 0.25s;
+    padding: 20px;
+    border-radius: 5px;
+}
+.uno:hover{
+    background-color:black;
+    color: white;
+    scale: 1.15;
+}
+.fundacion{
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+}
+.antonio{
+    
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+}
+.fundacion_completa{
+    display: flex;
+}
+.eventos{
+    
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-right:270px ;
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+}
+.text1, .text2{
+    padding: 20px;
+    margin: 10px;
+}
+.imgs1, .imgs2, .man{
+    display: flex;
+    justify-content: center;
+}
+.titulo, .info{
+    text-align: center;
+}
+.pie{
+    color: white;
+    background-color: black;
+    padding: 40px;
+    margin-top: 10px;
+}

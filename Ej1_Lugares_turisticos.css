@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.barra {
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/RUH2AAC3OFBEDGQNK2FLGZBRWI.jpeg);
+    background-size: cover;
+}
+.uno{
+    transition: 0.25s;
+    padding: 20px;
+    border-radius: 5px;
+}
+.uno:hover{
+    background-color:black;
+    color: rgb(255, 255, 255);
+    scale: 1.15;
+}
+.main {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 14px;
+}
+.contenedor_lugares{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+}
+.lugar{
+    background-color: rgba(197, 197, 197, 0.6);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    
+    text-align: center;
+}
+.lugar:hover{
+    filter: drop-shadow(5px 5px 3px rgb(22, 22, 22));
+    transition: all .5s;
+}
+.Lugares_titulo{
+    text-align: center;
+}
+.pie{
+    color: white;
+    background-color: black;
+    padding: 40px;
+    margin-top: 10px;
+}

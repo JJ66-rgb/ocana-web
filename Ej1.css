@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.barra {
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.uno{
+    transition: 0.25s;
+    padding: 20px;
+    border-radius: 5px;
+}
+.uno:hover{
+    background-color:black;
+    color: white;
+    scale: 1.15;
+}
+.main {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 14px;
+}
+.titulo{
+    padding: 330px;
+    color: white;
+}
+body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/RUH2AAC3OFBEDGQNK2FLGZBRWI.jpeg);
+    background-size: cover;
+}
+.principal{
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+    padding: 20px;
+    margin-bottom:20px ;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.cosfies{
+    color: white;
+    background-color: rgba(137, 129, 129, 0.6);
+    padding: 20px;
+    margin-bottom:20px ;
+    display: flex;
+    align-items: center;
+}
+.pie{
+    color: white;
+    background-color: black;
+    padding: 40px;
+    margin-top: 10px;
+}
